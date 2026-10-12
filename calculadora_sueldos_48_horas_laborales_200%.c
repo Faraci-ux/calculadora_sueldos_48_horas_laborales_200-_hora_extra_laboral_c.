@@ -28,15 +28,11 @@ int main()
 		sueldo=(48*pago_hora)+horas_extra;
 	}
 	
-	else if(horas<=48 && horas>=40)
+	else if(horas<=48)
 	{
 		sueldo=horas*pago_hora;
 	}
-	
-	else if(horas<40)
-	{
-		sueldo=horas*pago_hora*0.88;
-	}
+
 	
 	printf("el sueldo del empleado es: %.2f", sueldo);
 	
